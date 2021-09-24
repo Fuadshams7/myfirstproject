@@ -1,0 +1,14 @@
+p {
+  text-align:center;
+  border: 2px solid powderblue;
+  border-radius: 20px;
+  padding:100px 20px 100px 0px;
+  margin:0px 0px 10px 200px;
+}
+.left {margin:0px 0px 10px 0px}
+.right{margin:0px 1100px 10px 0px}
+p.left {color:tomato;}
+p.right {color:red;}
+p.left.bold {font-weight: 900;}
+p.left.italic {font-style: italic;}
+p.right.underlined {text-decoration:underline ;}
