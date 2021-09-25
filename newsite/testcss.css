@@ -1,14 +1,19 @@
-p {
+  p {
   text-align:center;
   border: 2px solid powderblue;
-  border-radius: 20px;
-  padding:100px 20px 100px 0px;
-  margin:0px 0px 10px 200px;
+  border-radius:100%;
+  box-sizing:border-box;
+  height: 300px;
+  width: 300px;
+ padding: 125px 0px 0px 0px;
+ font-size: 25px;
 }
-.left {margin:0px 0px 10px 0px}
-.right{margin:0px 1100px 10px 0px}
-p.left {color:tomato;}
-p.right {color:red;}
+
+.left {margin:0px 0px 0px 700px}
+.right{margin:0px 0px 0px 400px}
+p.left {color:blue;background-color: tomato;}
+p.right {color:red;background-color: powderblue;}
 p.left.bold {font-weight: 900;}
 p.left.italic {font-style: italic;}
-p.right.underlined {text-decoration:underline ;}
+p.right.underlined {text-decoration:underline;}
+
